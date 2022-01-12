@@ -15,7 +15,7 @@
 /* nav area */
 
 .header_area .main-navbar .navbar-brand {
-    padding-right: 2rem;
+    padding-right: 1px;
 }
 
 
@@ -109,8 +109,7 @@ body::before {
 }
 
 .me {
-    border-radius: 50%;
-    background-color: #ADD8E6;
+    margin-left: -20px;
 }
 
 
@@ -341,7 +340,7 @@ ul.timeline>li:before {
 [data-inviewport="bummer2"].is-inViewport {
     transition: 1.5s;
     transform: scale(1);
-    -webkit-transform: scale(1);    
+    -webkit-transform: scale(1);
 }
 
 @keyframes bummer {
@@ -349,6 +348,7 @@ ul.timeline>li:before {
         transform: scale(0.5);
         -webkit-transform: scale(0.5);
     }
+
     100% {
         transform: scale(1);
         -webkit-transform: scale(1);
