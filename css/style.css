@@ -21,6 +21,12 @@
 
 .header_area .main-navbar .navbar {
     padding: 1rem 1rem;
+    position: fixed;
+    top: 0;
+    transition: top 0.2s ease-in-out;
+    -webkit-box-shadow: 0 8px 10px -6px rgb(238, 174, 202);
+       -moz-box-shadow: 0 8px 10px -6px rgb(238, 174, 202);
+            box-shadow: 0 8px 10px -6px rgb(238, 174, 202);
 }
 
 .header_area .main-navbar .navbar-nav .nav-link {
@@ -34,6 +40,10 @@
 .navbar-toggler-icon {
     border: 1px solid #212529;
     border-radius: inherit;
+}
+
+.header_area .main-navbar .nav-up {
+    top: -90px;
 }
 
 @media (max-height: 1080px) {
